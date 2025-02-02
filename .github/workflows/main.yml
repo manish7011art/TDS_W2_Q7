@@ -3,14 +3,14 @@ name: Test Action
 on:
   push:
     branches:
-      - main  # Change to the branch you want
+      - main  
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4  # Use the latest version
+        uses: actions/checkout@v4  
 
-      - name: Print Email
-        run: echo "Hello, world! My email is 22f3000749@ds.study.iitm.ac.in"
+      - name: 22f3000749@ds.study.iitm.ac.in  # Keep your email here
+        run: echo "Hello, world!"
